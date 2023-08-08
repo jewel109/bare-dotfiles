@@ -65,7 +65,9 @@ OSH_THEME="font"
 # aliases by the default OMB aliases defined in lib/*.sh
 # OMB_DEFAULT_ALIASES="check"
 
-alias nvim_chad="NVIM_APPNAME=Nvchad nvim"
+alias ncd="NVIM_APPNAME=Nvchad nvim"
+alias lv="NVIM_APPNAME=Lazyvim nvim"
+alias gdr="cd ~ && cd \$(fd -t d | fzf)"
 # Would you like to use another custom folder than $OSH/custom?
 # OSH_CUSTOM=/path/to/new-custom-folder
 
