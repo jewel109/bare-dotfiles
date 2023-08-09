@@ -1,0 +1,8 @@
+[user]
+	email = jewelrana176517@gmail.com
+	password = <here will be my passord>
+	name = jewel109
+[credential]
+	helper = cache --timeout=3600000000000000
+[core]
+	editor = nvim
