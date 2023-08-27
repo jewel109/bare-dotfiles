@@ -67,6 +67,7 @@ OSH_THEME="font"
 
 alias ncd="NVIM_APPNAME=Nvchad nvim"
 alias lv="NVIM_APPNAME=Lazyvim nvim"
+alias kv="NVIM_APPNAME=kickstart nvim"
 alias gdr="cd ~ && cd \$(fd -H -t d | fzf)"
 # Would you like to use another custom folder than $OSH/custom?
 # OSH_CUSTOM=/path/to/new-custom-folder
@@ -152,3 +153,8 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 # alias ohmybash="mate ~/.oh-my-bash"
 # Add this line at the end of .bashrc:
 [[ ${BLE_VERSION-} ]] && ble-attach
+
+# Created by `pipx` on 2023-08-16 10:01:45
+export PATH="$PATH:/home/raihan/.local/bin"
+
+[ -f "/home/raihan/.ghcup/env" ] && source "/home/raihan/.ghcup/env" # ghcup-env
